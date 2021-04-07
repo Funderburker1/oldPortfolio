@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="JobsCalc" title="JobsCalc" src="banner" width="220px" />
+  <img alt="JobsCalc" title="Baneer-Meu Portfolio" src="banner" width="220px" />
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src="jobscalc.png" width="100%">
+  <img alt="Logo" src="jobscalc.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
