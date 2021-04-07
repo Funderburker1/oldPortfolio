@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="JobsCalc" title="Baneer-Meu Portfolio" src="banner" width="220px" />
+  <img alt="Baneer" title="Meu Portfolio" src="banner" width="220px" />
 </h1>
 
 <p align="center">
