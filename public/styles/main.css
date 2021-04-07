@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --fonte-primary: font-family: 'Roboto'; 
+    --fonte-secundary: font-family: 'Ubuntu'; 
+    --fonte-menu: font-family: 'Baloo 2';
+    --color-primary: #fff;
+    --color-theme: #04D361;
+    --color-theme-dark: #067538;
+    --linear-gradient: linear-gradient(to left, #04D361, #058840);
+    --background-color-light: #202020;
+    --background-color-dark: #181818;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto';
+    color: var(--color-primary)
+}
+
+body {
+    /* min-width: 1000vw; */
+    background-color: #f8df00;
+  }
+   

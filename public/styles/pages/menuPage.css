@@ -1,0 +1,137 @@
+/*--------------------------MENU FLUTUANTE DO CANTO DIREITO------------------------------------*/
+.hamburguer {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  
+  .show-menu .hamburguer {
+    right: 17rem;
+  }
+  
+  .line {
+    width: 100%;
+    height: .2rem;
+    background-color: var(--color-theme);
+    transition: transform 1s;
+  }
+  
+  .show-menu #line1 {
+      transform: translate(.4rem, .5rem) rotate(45deg);
+  }
+    
+  .show-menu #line2 {
+      opacity: 0;
+      visibility: hidden;
+  }
+    
+  .show-menu #line3 {
+      transform: translate(.4rem, -.6rem) rotate(-45deg);
+  }
+    
+  
+  .hamburguer span {
+    position: absolute;
+    left: 3rem;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(to right, #04D361, #058840);  
+    background: var(--linear-gradient);
+    color: var(--color-primary);
+    opacity: 0;
+  }
+  
+  .hamburguer span:before {
+    content: "";
+    position: absolute;
+    border-right: .5rem solid var(--color-theme);
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    left: -1rem;
+  }
+  
+  
+  .show-menu .hamburguer:hover span {
+    opacity: 1;
+  }
+
+  /*------------------------CONTEUDO DO MENU FLUTUANTE DO CANTO DIREITO--------------------*/
+.sidebar {
+    width: 20rem;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 2, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 30px 0px 0px 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all .8s;
+    z-index: 90;
+}
+  
+.show-menu .sidebar {
+    right: 0;
+}
+  
+.menu {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+.menu-item{
+    margin-bottom: .5rem;
+    text-align: center;
+}
+  
+.menu-link {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    transition: color .5s;
+}
+  
+.menu-link:hover {
+    color: var(--color-theme);
+}
+  
+.social-media{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+  
+.social-media i {
+    background-color: var(--color-theme);
+    color: var(--color-primary);
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color .5s;
+    
+}
+  
+.social-media i:hover {
+    background-color: var(--color-theme-dark);
+}

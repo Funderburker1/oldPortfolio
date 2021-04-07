@@ -1,0 +1,109 @@
+#about {
+    max-width: 100%;
+    /* min-height: 100vh; */
+    background-color: var(--background-color-dark);
+    padding: 3.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    overflow: hidden;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sobreFoto {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreFoto img {
+    width: 17rem;
+    border-radius: 50%;
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 
+    0 0 0 18px var(--background-color-dark),
+    0 0 0 24px var(--color-theme),
+    0 0 0 20px hsla(0, 40%, 70%, 0),
+    0 0 0 25px hsla(0, 50%, 80%, 0),
+    0 0 0 30px hsla(0, 61%, 90%, 0);
+   
+}
+
+.sobreTexto {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    padding-left: 2rem;
+    
+    color: rgb(22, 22, 22);
+    
+}
+
+.sobreTexto .paragrafo1 {
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: var(--color-primary);
+}
+
+.sobreTexto .paragrafo2 {
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: var(--color-primary);
+}
+
+.sobreTexto h3 {
+    font-size: 3rem;
+    color: var(--color-primary);
+    border-bottom: solid 3px var(--color-theme);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.sobreTexto i {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-theme);
+    border: 2px solid var(--color-theme);
+    color: var(--color-primary);
+    width: 14rem;
+    padding: .8rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+    /* transition: background-color .4s;
+    transition: transform .5s; */
+    margin-left: 1rem;
+    opacity: 1;
+    
+}
+
+.sobreTexto i:hover{
+    background-color: transparent;
+    cursor:pointer;
+    transition: background-color .4s;
+    color: var(--color-theme);
+}
+
+.botao-git {
+   margin-left: 0.1rem;
+   margin-top: 10px;
+   font-size: 23px;
+   font-weight:700;
+ }
+
+ .botao-curriculo {
+    margin-left: 0.1rem;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight:700;
+ }
+
+ .botaoSobre{
+     display: flex;
+ }

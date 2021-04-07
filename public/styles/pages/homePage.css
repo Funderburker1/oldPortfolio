@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--background-color-light);
+}
+
+/*-------------------------------------IMAGEM DE FUNDO----------------------------------*/
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+  
+.img-wrapper img {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 4%;
+    left: 26%;
+}
+  
+/*-------------------------------------texto da home----------------------------------------*/
+.text{
+    position: absolute;
+    top: 28%;
+    left: 8%;
+}
+  
+.text h3 {
+    color: var(--color-theme);
+    font-size: 2rem;
+    font-weight: 700;
+    /* text-shadow: .3rem .4rem 2px rgba(0,0,0, .4); */
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text h1 {
+    color: var(--color-primary);
+    font-size: 5rem;
+    font-weight: 900;
+    /* text-shadow: .3rem .4rem 2px rgba(0,0,0, .4); */
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.text p {
+    font-size: 2rem;
+    /* text-shadow: .2rem .2rem rgba(0,0,0, .4); */
+    margin-bottom: 1rem;
+}
+
+/* efeito maquina de escrever no h3 */
+.text h3::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+ 
+/*botão*/
+.botao-likedin {
+    display: flex;
+    justify-content: center;
+    width: 14rem;
+    background: var(--color-theme); 
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 10px;
+    transition:all 0.5s;
+    border: 3px solid var(--color-theme);
+  }
+
+  .botao-likedin:hover{
+    cursor:pointer;
+    background-color: transparent;
+    color: var(--color-theme);
+  }
+
+ 
+  

@@ -1,0 +1,112 @@
+/*PAGINA CONHECIMENTOS*/
+#services {
+    padding-top: 4rem;
+    /* max-width: 100%;
+    min-height: 50vh; */
+    overflow: hidden;
+}
+
+.conhecimentos2 {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 5rem);
+    
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+}
+  
+.conhecimento2:nth-child(1){
+    grid-column: 3 / 6;
+    grid-row: 1 / 4;
+    background-color: var(--background-color-light);
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    padding: 0.7rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition:all 0.5s;
+}
+
+.conhecimento2:nth-child(2){
+    grid-column: 6 / 9;
+    grid-row: 1 / 4;
+    background-color: var(--background-color-light);
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    padding: 0.7rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition:all 0.5s
+}
+
+.conhecimento2:nth-child(3){
+    grid-column: 15/ 12;
+    grid-row: 1 / 4;
+    background-color: var(--background-color-light);
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    padding: 0.7rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition:all 0.5s
+}
+
+.conhecimento2:nth-child(4){
+    grid-column: 9 / 12;
+    grid-row: 1 / 4;
+    background-color: var(--background-color-light);
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    padding: 0.7rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition:all 0.5s
+}
+
+.conhecimento2:hover{
+    cursor:pointer;
+    transform:scale(1.10)
+}
+
+.sessao-services {
+    background-color: var(--background-color-dark)
+}
+  
+.sessao-header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.sessao-header2 h1 {
+    font-size: 3rem;
+    color: var(--color-primary);
+    border-bottom: solid 3px var(--color-theme);
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-family: 'Baloo 2';
+}
+  
+.conhecimento-header2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.conhecimento-header2 i {
+    font-size: 4rem;
+    color: var(--color-theme);
+    padding-top: 1rem;
+    
+}
+  
+.conhecimento-header2 h3 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    font-family: 'Baloo 2';
+}
+  
+.conhecimento-text2 {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--color-primary);
+}
