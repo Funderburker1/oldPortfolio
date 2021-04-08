@@ -13,14 +13,3 @@ typeWriter(titulo);
 type = 'text/javascript' > document.addEventListener('DOMContentLoaded',
     function () { window.setTimeout(document.querySelector('svg').classList.add('animated'), 1000); });
 
-//carrocel
-// document.querySelectorAll('#items-container').addEventListener('wheel', event => {
-//     if (event.deltaY > 0) {
-//         event.target.scrollBy(300, 0);
-//     }
-//     else {
-//         event.target.scrollBy(-300, 0);
-//     }
-// })
-
-// JavaScript Document

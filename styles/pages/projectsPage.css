@@ -1,10 +1,10 @@
 /*PAGINA PROJETOS CARDS*/
-#projects{
+/* #projects{
     padding: 4rem;
     min-height: 100vh;
     background-color: var(--background-color-light);
     overflow: hidden;
-}
+} */
 
 .card-linha {
     display: flex;

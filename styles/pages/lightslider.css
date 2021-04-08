@@ -12,14 +12,14 @@
     -ms-user-select: none;
     user-select: none
 }
-.lightSlider:before, .lightSlider:after {
+/* .lightSlider:before, .lightSlider:after {
     content: " ";
     display: table;
-}
-.lightSlider {
+} */
+/* .lightSlider {
     overflow: hidden;
-    margin: 3rem;
-}
+    margin: 0rem;
+} */
 .lSSlideWrapper {
     max-width: 100%;
     overflow: hidden;
@@ -149,7 +149,7 @@
 /* End of Gallery*/
 
 /* slider actions */
-.lSAction > a {
+/* .lSAction > a {
     width: 32px;
     display: block;
     top: 50%;
@@ -162,8 +162,8 @@
     opacity: 0.5;
     -webkit-transition: opacity 0.35s linear 0s;
     transition: opacity 0.35s linear 0s;
-}
-.lSAction > a:hover {
+} */
+/* .lSAction > a:hover {
     opacity: 1;
 }
 .lSAction > .lSPrev {
@@ -176,7 +176,7 @@
 }
 .lSAction > a.disabled {
     pointer-events: none;
-}
+} */
 .cS-hidden {
     height: 1px;
     opacity: 0;

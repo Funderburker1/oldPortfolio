@@ -27,4 +27,8 @@ body {
     /* min-width: 1000vw; */
     background-color: var(--background-color-dark)
   }
+
+  html {
+      scroll-behavior: smooth;
+  }
    
