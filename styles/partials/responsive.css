@@ -430,6 +430,10 @@
         font-size: 0.6rem;
     }
 
+    .input-contact {
+        padding-left: 2rem;
+    }
+
 }
 
 @media (max-width: 670px) {
