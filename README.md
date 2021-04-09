@@ -40,7 +40,7 @@ Meu portfolio, feito com o que estou estudando no momento.
 <a href="https://devjoaocamargo.github.io/" target="_blank">
        <span class="botao-likedin">Link do Portfolio</span>
 </a>
-</br>
+<br>
 
 Feito com ♥ by devjoaocamargo :wave:
 
