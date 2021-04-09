@@ -37,6 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Meu portfolio, feito com o que estou estudando no momento.
 
+Link da pagina: https://devjoaocamargo.github.io/
 
 Feito com ♥ by devjoaocamargo :wave:
 
