@@ -28,10 +28,10 @@ body {
     background-color: var(--background-color-dark)
   }
 
-  html {
+html {
       scroll-behavior: smooth;
   }
-   
+
 ::-webkit-scrollbar {
     width: 6px;
     background: #efeef6;
