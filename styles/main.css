@@ -32,3 +32,13 @@ body {
       scroll-behavior: smooth;
   }
    
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #efeef6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-theme);
+}
